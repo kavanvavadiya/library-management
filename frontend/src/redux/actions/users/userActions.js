@@ -31,7 +31,7 @@ export const registerUser = (name, email, password) => {
       };
 
       const { data } = await axios.post(
-        '/api/users/',
+        '/api/users',
         {
           name,
           email,
